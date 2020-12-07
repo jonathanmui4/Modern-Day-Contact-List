@@ -1,0 +1,21 @@
+
+<div class="jumbotron">
+  <h1 class="display-4">
+    <%= @friend.first_name %>
+    <%= @friend.last_name %>
+  </h1>
+  <p class="lead">
+    <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+    <%= @friend.birthday %> |
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <%= @friend.ig_handle %> |
+    <i class="fa fa-telegram" aria-hidden="true"></i>
+    <%= @friend.tele_handle %>
+  </p>
+  </br>
+  </br>
+  <%= link_to 'Edit', edit_friend_path(@friend), class: "btn btn-secondary" %>
+  <%= link_to 'Back', friends_path, class: "btn btn-secondary" %>
+</div>
+
+
