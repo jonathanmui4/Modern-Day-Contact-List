@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello, this is my first ever web-app with ruby on rails. It is a friends list app that stores
+important information that young people nowadays tend to remember about their friends:
+* Birthdays
+* Telegram Handle
+* Instagram Handle
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I made this app with a lot of help from online tutorials but mostly from Codemy on youtube.
